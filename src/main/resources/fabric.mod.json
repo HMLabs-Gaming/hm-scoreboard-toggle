@@ -4,18 +4,14 @@
   "version": "${version}",
   "name": "HM Scoreboard Toggle",
   "description": "Toggle the vanilla scoreboard sidebar with a configurable keybind.",
-  "authors": [
-    "Henry Meyer"
-  ],
+  "authors": ["Henry Meyer"],
   "contact": {
     "sources": "https://github.com/henrymmey/hm-scoreboard-toggle"
   },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "dev.henrymeyer.hmscoreboardtoggle.HMScoreboardToggleClient"
-    ]
+    "client": ["dev.henrymeyer.hmscoreboardtoggle.HMScoreboardToggleClient"]
   },
   "depends": {
     "fabricloader": ">=0.19.5",
