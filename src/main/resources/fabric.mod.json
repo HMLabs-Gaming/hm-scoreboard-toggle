@@ -4,6 +4,7 @@
   "version": "${version}",
   "name": "HM Scoreboard Toggle",
   "description": "Toggle the vanilla scoreboard sidebar with a configurable keybind.",
+  "icon": "assets/hm-scoreboard-toggle/icon.png",
   "authors": ["Henry Meyer"],
   "contact": {
     "sources": "https://github.com/henrymmey/hm-scoreboard-toggle"
