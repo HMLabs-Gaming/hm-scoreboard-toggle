@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+*.launch
+
+# Minecraft run directory
+run/
+
+# OS and JVM
+.DS_Store
+hs_err_*.log
+*.hprof
+*.jfr
