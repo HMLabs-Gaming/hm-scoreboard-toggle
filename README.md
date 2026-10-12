@@ -1,6 +1,7 @@
 # HM Scoreboard Toggle
 
 [![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/project/e8MHqdVK)
+[![Curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/hm-scoreboard-toggle)
 [![GitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg)](https://github.com/henrymmey/hm-scoreboard-toggle)
 
 A minimal, client-side Fabric mod for Minecraft Java Edition **26.2**. Press **K** to hide or show the vanilla scoreboard sidebar.
