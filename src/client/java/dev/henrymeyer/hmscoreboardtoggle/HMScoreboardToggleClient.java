@@ -46,7 +46,7 @@ public final class HMScoreboardToggleClient implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (TOGGLE_SCOREBOARD.consumeClick()) {
                 // Do not toggle while typing in chat or interacting with a menu.
-                if (client.player != null && client.screen == null) {
+                if (client.player != null && client.gui.screen() == null) {
                     scoreboardVisible = !scoreboardVisible;
                 }
             }
