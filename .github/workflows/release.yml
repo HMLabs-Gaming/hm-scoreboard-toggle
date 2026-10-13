@@ -1,0 +1,20 @@
+# Caller example: copy to the consuming mod repository at .github/workflows/release.yml.
+name: Mod Release
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    uses: HMLabs-Gaming/release-workflows/.github/workflows/release-artifacts.yml@main
+    with:
+      project-slug: hm-scoreboard-toggle
+      curseforge-project-id: "1742106"
+      version-type: release
+      java-version: "25"
+      build-command: "bash ./gradlew --no-daemon build"
+      artifacts-json: '[{"path":"build/libs/hm-scoreboard-toggle-{version}.jar","loader":"fabric"}]'
+    secrets: inherit
